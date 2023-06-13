@@ -1,0 +1,50 @@
+.container {
+  max-width: 400px;
+  margin: auto;
+  padding: 16px;
+  background-color: #f2f2f2;
+}
+
+.form-control {
+  margin-bottom: 8px;
+}
+
+.alert {
+  margin-top: 16px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+.home-container {
+  max-width: 600px;
+  margin: auto;
+  padding: 16px;
+  background-color: #f2f2f2;
+}
+
+.table {
+  width: 100%;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+@media (max-width: 576px) {
+  .container {
+    padding: 8px;
+  }
+
+  th,
+  td {
+    padding: 4px;
+  }
+}
